@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
-  m_Shader: {fileID: -6465566751694194690, guid: ca375a46dd3cace46b1d2492b3c4b62a, type: 3}
+  m_Name: Bubble
+  m_Shader: {fileID: -6465566751694194690, guid: 478cc5eef1d652240aa20411143a19e7, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,6 +19,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_12c3d098bcd84a5188568d4010642f66:
+        m_Texture: {fileID: 2800000, guid: 68cd21cb625f3ec49bf26a42f306e388, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_8acecb699eac4cad97d8790f979779e3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -59,6 +67,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleCubemap_6c6f29a342c8403896d3dbf9042888f3_Cube_1:
+        m_Texture: {fileID: 8900000, guid: c6111d137b6b72740af70fdb0d0b1264, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_478e4032d04a4e5086cefeba486f46f6_Texture_1:
         m_Texture: {fileID: 2800000, guid: f506b756c98abb241aca84714d73dfaa, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -80,7 +92,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_0cdfa5ecec5549eda209e0990dbdaa18: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -112,9 +123,9 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _color: {r: 0, g: 1, b: 0.6686821, a: 1}
+    - _color: {r: 0.5418743, g: 0.9339623, b: 0.8773791, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &6718251637003758824
+--- !u!114 &6760954469426993733
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
