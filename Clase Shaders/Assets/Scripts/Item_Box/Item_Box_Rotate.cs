@@ -8,12 +8,12 @@ public class Item_Box_Rotate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Application.targetFrameRate = 60;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Time.deltaTime * speed, Time.fixedDeltaTime * speed, 0, Space.World);
+        transform.Rotate(0, Time.deltaTime * speed , 0, Space.Self);
     }
 }
