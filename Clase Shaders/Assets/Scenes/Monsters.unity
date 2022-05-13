@@ -297,6 +297,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 2f0946770b548df44af4d35172e33034, type: 2}
+    - target: {fileID: -188304713486129958, guid: 10eb5ba25ef62204b813d7fb2c2660a7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2f0946770b548df44af4d35172e33034, type: 2}
     - target: {fileID: 276632675283932152, guid: 10eb5ba25ef62204b813d7fb2c2660a7, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -309,10 +313,18 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 688797155291541827, guid: 10eb5ba25ef62204b813d7fb2c2660a7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a3ccac9df0b13be4290c5b70385e59c8, type: 2}
     - target: {fileID: 919132149155446097, guid: 10eb5ba25ef62204b813d7fb2c2660a7, type: 3}
       propertyPath: m_Name
       value: Kraken
       objectReference: {fileID: 0}
+    - target: {fileID: 5295245872766924416, guid: 10eb5ba25ef62204b813d7fb2c2660a7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2f0946770b548df44af4d35172e33034, type: 2}
     - target: {fileID: 5447147425258706583, guid: 10eb5ba25ef62204b813d7fb2c2660a7, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
